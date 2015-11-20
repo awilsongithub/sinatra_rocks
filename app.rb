@@ -15,7 +15,7 @@ get '/' do
       :name => 'small animals',
       :message => 'some animals'
    }
-   return main_hash.to_jsonuphouse
+   return main_hash.to_json
 end
 
 # five routes for small animals
